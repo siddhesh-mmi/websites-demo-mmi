@@ -1,0 +1,75 @@
+@media screen and (min-width:1367px){
+	.header{
+		background-color: black;
+		width: 82vw;
+		margin-left: 9vw;
+		height: 75px;
+		margin-top: 60px;
+	}
+
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1366px){
+	.header{
+		background-color: black;
+		width: 82vw;
+		margin-left: 9vw;
+		height: 50px;
+		margin-top: 40px; /*6.7vh;*/
+	}
+
+	.logo{
+		width: 9vw;
+		height: 50px;
+		background-color: red;
+		margin-top: 40px;
+	}
+
+	.section1{
+		margin-left: 9vw;
+		/*height: 279px;*/
+		height: 34.8vh;
+		background-color: black;
+		/*margin-top: 125px;*/
+		margin-top: 15.6vh;
+		width: 82vw;
+	}
+
+	.heading1{
+		/*margin-left: 9vw;*/
+		background-color: green;
+		/*margin-top: 73px;*/
+		margin-top: 9.1vh;
+		height: 25.75vh;
+		float: left;
+		width: 55.8vw;
+	}
+
+	.image1{
+		margin-left: 2.7vw;
+		background-color: red;
+		height: 34.8vh;
+		width: 23.5vw;
+		float: left;
+	}
+
+	.subsection1{
+		margin-left: 9vw;
+		background-color: blue;
+		height: 8.25vh;
+		width: 55.8vw;
+		float: left;
+		margin-top: 3.5vh;
+	}
+
+	.gif{
+		/*margin-left: 9vw;*/
+		background-color: purple;
+		height: 134px;
+		width: 100vw;
+		float: left;
+		overflow-x: hidden;
+		margin-top: 7.6vh;
+	}
+}
