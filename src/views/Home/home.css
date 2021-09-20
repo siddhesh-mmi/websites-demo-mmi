@@ -9,6 +9,9 @@
 }
 
 @media screen and (min-width:1025px) and (max-width:1366px){
+	body{
+		overflow-x: hidden;
+	}
 	.header{
 		background-color: black;
 		width: 82vw;
@@ -41,9 +44,7 @@
 	}
 
 	.heading1{
-		/*margin-left: 9vw;*/
 		background-color: green;
-		/*margin-top: 73px;*/
 		margin-top: 5.7vw;
 		height: 16vw;
 		float: left;
@@ -72,7 +73,7 @@
 		background-color: blue;
 		height: 8.25vh;
 		width: 55.8vw;
-		float: left;
+		/* float: left; */
 		margin-top: 3.5vh;
 	}
 
@@ -81,13 +82,40 @@
 		background-color: purple;
 		height: 10.4vw;
 		width: 100vw;
-		float: left;
-		overflow-x: hidden;
+		/* float: left; */
+		/* overflow-x: hidden; */
 		margin-top: 4.7vw;
+	}
+	.whatwedo {
+		margin-top: 10.4vw;
+		width: 68vw;
+		height: 47vw;
+		background-color: brown;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 4.68vw;
+		padding-top: 3.4vw;
+	}
+	.whatwedoHeader {
+		/* margin-top: 3.4vw; */
+		background-color: burlywood;
+		width: 26.2vw;
+		height: 4.76vw;
+		margin:0 auto ;
+	}
+	.box1 {
+		margin-top: 3.4vw;
+		width: 26.25vw;
+		height: 31.7vw;
+		border-radius: 4.68vw;
+		background-color: cadetblue;
 	}
 }
 
 @media screen and (min-width:768px) and (max-width:1024px){
+	body{
+		overflow-x: hidden;
+	}
 	.header{
 		background-color: black;
 		width: 82vw;
@@ -99,7 +127,7 @@
 	}
 
 	.logo{
-		width: 9vw;
+		width: 13.93vw;
 		/* height: 50px; */
 		height:12.33vw;
 		background-color: red;
@@ -120,10 +148,7 @@
 	}
 
 	.heading1{
-		/*margin-left: 9vw;*/
 		background-color: green;
-		/*margin-top: 73px;*/
-		/* margin-top: 5.7vw; */
 		height: 32vw;
 		float: left;
 		width: 82vw;
@@ -167,6 +192,9 @@
 	}
 }
 @media screen and (max-width:767.68px){
+	body{
+		overflow-x: hidden;
+	}
 	.image1{
 		display:none;
 	}
