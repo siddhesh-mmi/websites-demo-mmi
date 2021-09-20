@@ -232,9 +232,20 @@ class Home extends React.Component{
       </div>
         <div className="gif">
       </div>
-      <div>
-        <div className="whatwedo"></div>
-      </div>
+        <div className="whatwedo">
+          
+        </div>
+        <div className="whatwedo_section">
+          <div className="whatwedo_section_data">
+            
+          </div>
+          <div className="whatwedo_section_data">
+          
+          </div>
+          <div className="whatwedo_section_data">
+          
+          </div>
+        </div>
       {/*<Footer />*/}
       </>
     )
