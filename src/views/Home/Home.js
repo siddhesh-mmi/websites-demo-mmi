@@ -16,7 +16,7 @@ import './home.css';
 // import david from '../assets/david.webp'
 // import rajendra from '../assets/rajendra.webp'
 // import howmuchimg from '../assets/howmuchimg.svg'
-// import cardanoLogo from '../assets/cardanologo.svg'
+ import cardanoLogo from '../../assets/images/cardanologo.png'
 // import { Helmet } from "react-helmet";
 
 class Home extends React.Component{
@@ -223,7 +223,9 @@ class Home extends React.Component{
       </div>
       <div className="section1">
         <div className="heading1"></div>
-        <div className="image1"></div>
+        <div className="image1">
+          <img className="image_1" src={cardanoLogo} alt="cardano-logo"/>
+        </div>
       </div>
       <div className="subsection1">
         

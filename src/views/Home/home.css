@@ -15,24 +15,30 @@
 		background-color: black;
 		width: 82vw;
 		margin-left: 9vw;
-		height: 50px;
-		margin-top: 40px; /*6.7vh;*/
+		height:3.9vw;
+		/* height: 50px; */
+		/* margin-top: 40px; 6.7vh; */
+		margin-top: 3.1vw;
 	}
 
 	.logo{
 		width: 9vw;
-		height: 50px;
+		/* height: 50px; */
+		height:3.9vw;
 		background-color: red;
-		margin-top: 40px;
+		/* margin-top: 40px; */
+		margin-top: 3.1vw;
 	}
 
 	.section1{
 		margin-left: 9vw;
 		/*height: 279px;*/
-		height: 34.8vh;
-		background-color: black;
+		/* height: 34.8vh; */
+		height: 21.7vw;
+		background-color: grey;
 		/*margin-top: 125px;*/
-		margin-top: 15.6vh;
+		/* margin-top: 15.6vh; */
+		margin-top: 9.7vw;
 		width: 82vw;
 	}
 
@@ -40,16 +46,25 @@
 		/*margin-left: 9vw;*/
 		background-color: green;
 		/*margin-top: 73px;*/
-		margin-top: 9.1vh;
-		height: 25.75vh;
+		margin-top: 5.7vw;
+		height: 16vw;
 		float: left;
 		width: 55.8vw;
 	}
 
 	.image1{
 		margin-left: 2.7vw;
-		background-color: red;
-		height: 34.8vh;
+		/* background-color: red; */
+		/* height: 34.8vh; */
+		height: 21.79vw;
+		width: 23.5vw;
+		float: left;
+	}
+
+	.image_1{
+		/* background-color: red; */
+		/* height: 34.8vh; */
+		height: 21.79vw;
 		width: 23.5vw;
 		float: left;
 	}
@@ -66,10 +81,10 @@
 	.gif{
 		/*margin-left: 9vw;*/
 		background-color: purple;
-		height: 134px;
+		height: 10.4vw;
 		width: 100vw;
 		float: left;
 		overflow-x: hidden;
-		margin-top: 7.6vh;
+		margin-top: 4.7vw;
 	}
 }
