@@ -70,15 +70,16 @@
 		/* float: left; */
 		/* overflow-x: hidden; */
 		margin-top: 5.72vw;
+		border-bottom: 8.133vw solid #181818;
 	}
 
 	.whatwedo {
-		margin-top: 11.66vw;
+		/* margin-top: 3.489vw; */
 		width: 33vw;
 		height: 3.75vw;
 		background-color: brown;
-		margin-left: 33vw;
-		margin-right: 33vw;
+		margin-left: 15.5vw;
+		/* margin-right: 33vw; */
 		/* border-radius: 4.68vw; */
 		/* padding-top: 3.4vw; */
 	}
@@ -86,22 +87,60 @@
 	.whatwedo_section{
 		margin-top: 4.06vw;
 		/* background-color: orange; */
-		margin-left: 6.197vw;
-		margin-right: 6.197vw;
+		margin-left: 6.09vw;
+		/* margin-right: 6.09vw; */
 		height: 23.90vw;
-		width: 93.24vw;
+		width: 100vw;
+		position: relative;
+		margin-bottom: 3.75vw;
+		left: calc(-50vw + 50%);
+	}
+
+	.whatwedo_bg{
+		background-color: darkcyan;
+		width: 63.95vw;
+		height: 40.729vw;
+		padding-top: 3.489vw;
+		margin-left: 17.96875vw;
+		border-radius: 3.125vw;
 	}
 
 	.whatwedo_section_data{
 		width: 23.59vw;
 		height: 23.90vw;
 		float: left;
-		overflow-x: hidden;;
+		overflow-x: hidden;
 		background-color: orange;
 		margin-left: 2.812vw;
 		margin-right:2.812vw;
+		border-radius: 3.125vw;
+		
 	}
 
+	.eel_section{
+		padding-top: 15.52vw;
+		height: 26.3vw;
+		width: 100vw;
+		background-color: grey;
+	}
+
+	.eel_header{
+		/* margin-top: 15.52vw; */
+		height: 3.75vw;
+		margin-left: 18.07vw;
+		margin-right: 18.07vw;
+		width: 63.90vw;
+		background-color: violet;
+	}
+
+	.eel_para{
+		margin-top: 4.06vw;
+		height: 12.5vw;
+		margin-left: 11.485vw;
+		margin-right: 11.485vw;
+		width: 77.03vw;
+		background-color: yellow;
+	}
 }
 
 @media screen and (min-width:1025px) and (max-width:1366px){
