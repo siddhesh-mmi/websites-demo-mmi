@@ -141,6 +141,65 @@
 		width: 77.03vw;
 		background-color: yellow;
 	}
+
+	.earning_calc{
+		height: 22.91vw;
+		background-color: aquamarine;
+		width: 81.97vw;
+		border-radius: 3.125vw;
+		margin: auto;
+		display: flex;
+		
+	}
+
+	.earning_calc_img{
+		background-color:rebeccapurple;
+		margin-top: 4.06vw;
+		margin-left: 5.02vw;
+		height: 14.55vw;
+		width: 14.977vw;
+	}
+
+	.earning_calc_header{
+		background-color: royalblue;
+		margin-top: 2.8125vw;
+		margin-left: 2.30vw;
+		height: 3.177vw;
+		width: 32.44vw;
+	}
+
+	.earning_calc_para{
+		margin-top: 1.66vw;
+		margin-left: 2.30vw;
+		height: 5.625vw;
+		width: 46.5625vw;
+		background-color: royalblue;
+	}
+
+	.earning_calc_btn{
+		margin-top: 0.989vw;
+		margin-left: 24.899vw;
+		height: 4.01vw;
+		width: 27.291vw;
+		background-color: #FCCD2F;
+		border-radius: 3.125vw;
+	}
+
+	.blackband{
+		border-bottom: 14.06vw solid #0E0E0E;
+	}
+
+	.our_team{
+		height: 69.58vw;
+		width: 100vw;
+		background-color: burlywood;
+	}
+
+	.footer{
+		height: 36.45833vw;
+		width: 100vw;
+		background-color: #181818;
+	}
 }
 
 @media screen and (min-width:1025px) and (max-width:1366px){
