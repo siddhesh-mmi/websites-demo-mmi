@@ -41,9 +41,7 @@
 	}
 
 	.heading1{
-		/*margin-left: 9vw;*/
 		background-color: green;
-		/*margin-top: 73px;*/
 		margin-top: 5.7vw;
 		height: 16vw;
 		float: left;
@@ -72,7 +70,6 @@
 		background-color: blue;
 		height: 8.25vh;
 		width: 55.8vw;
-		float: left;
 		margin-top: 3.5vh;
 	}
 
@@ -81,9 +78,14 @@
 		background-color: purple;
 		height: 10.4vw;
 		width: 100vw;
-		float: left;
 		overflow-x: hidden;
 		margin-top: 4.7vw;
+	}
+	.whatwedo {
+		width: 68.67vw;
+		height: 47vw;
+		background-color: brown;
+		margin: 10.4vw auto;
 	}
 }
 
@@ -120,10 +122,7 @@
 	}
 
 	.heading1{
-		/*margin-left: 9vw;*/
 		background-color: green;
-		/*margin-top: 73px;*/
-		/* margin-top: 5.7vw; */
 		height: 32vw;
 		float: left;
 		width: 82vw;
