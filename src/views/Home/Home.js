@@ -230,8 +230,10 @@ class Home extends React.Component{
       <div className="subsection1">
         
       </div>
-      <div className="gif">
-        
+        <div className="gif">
+      </div>
+      <div>
+        <div className="whatwedo"></div>
       </div>
       {/*<Footer />*/}
       </>

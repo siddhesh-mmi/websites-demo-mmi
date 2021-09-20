@@ -44,9 +44,7 @@
 	}
 
 	.heading1{
-		/*margin-left: 9vw;*/
 		background-color: green;
-		/*margin-top: 73px;*/
 		margin-top: 5.7vw;
 		height: 16vw;
 		float: left;
@@ -150,10 +148,7 @@
 	}
 
 	.heading1{
-		/*margin-left: 9vw;*/
 		background-color: green;
-		/*margin-top: 73px;*/
-		/* margin-top: 5.7vw; */
 		height: 32vw;
 		float: left;
 		width: 82vw;
