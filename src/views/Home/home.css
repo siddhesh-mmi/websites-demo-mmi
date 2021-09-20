@@ -88,3 +88,139 @@
 		margin-top: 4.7vw;
 	}
 }
+
+@media screen and (min-width:768px) and (max-width:1024px){
+	.header{
+		background-color: black;
+		width: 82vw;
+		margin-left: 9vw;
+		height:12.33vw;
+		/* height: 50px; */
+		/* margin-top: 40px; 6.7vh; */
+		margin-top: 3.1vw;
+	}
+
+	.logo{
+		width: 9vw;
+		/* height: 50px; */
+		height:12.33vw;
+		background-color: red;
+		/* margin-top: 40px; */
+		margin-top: 3.1vw;
+	}
+
+	.section1{
+		margin-left: 9vw;
+		/*height: 279px;*/
+		/* height: 34.8vh; */
+		height: 21.7vw;
+		background-color: grey;
+		/*margin-top: 125px;*/
+		/* margin-top: 15.6vh; */
+		margin-top: 41.6vw;
+		width: 82vw;
+	}
+
+	.heading1{
+		/*margin-left: 9vw;*/
+		background-color: green;
+		/*margin-top: 73px;*/
+		/* margin-top: 5.7vw; */
+		height: 32vw;
+		float: left;
+		width: 82vw;
+	}
+
+	.image1{
+		margin-left: 2.7vw;
+		/* background-color: red; */
+		/* height: 34.8vh; */
+		height: 21.79vw;
+		width: 23.5vw;
+		float: left;
+		display: none;
+	}
+
+	.image_1{
+		/* background-color: red; */
+		/* height: 34.8vh; */
+		height: 21.79vw;
+		width: 23.5vw;
+		float: left;
+	}
+
+	.subsection1{
+		margin-left: 9vw;
+		background-color: blue;
+		height: 13vw;
+		width: 82vw;
+		float: left;
+		margin-top: 3.5vh;
+	}
+
+	.gif{
+		/*margin-left: 9vw;*/
+		background-color: purple;
+		height: 17vw;
+		width: 100vw;
+		float: left;
+		overflow-x: hidden;
+		margin-top: 13vw;
+	}
+}
+@media screen and (max-width:767.68px){
+	.image1{
+		display:none;
+	}
+	.header{
+		background-color: black;
+    width: 100vw;
+    margin-left: 0vw;
+    height: 63pt;
+    margin-top: 0vw;
+    padding-top: 5vw;
+	}
+	.logo{
+		width: 106.89pt;
+    height: 44.67pt;
+    background-color: red;
+    margin-left: 7vw;
+	}
+	.section1{
+		margin-left: 6vw;
+		/*height: 279px;*/
+		/* height: 34.8vh; */
+		height: 30.7vw;
+		background-color: grey;
+		/*margin-top: 125px;*/
+		/* margin-top: 15.6vh; */
+		margin-top: 58.54vw;
+		width: 88.5vw;
+	}
+	.heading1{
+		margin-left: 9vw;
+    background-color: #008000;
+    /* margin-top: 73px; */
+    margin-top: 5.7vw;
+    height: 24.3vw;
+    float: left;
+    width: 88.4vw;
+	}
+	.subsection1{
+		margin-left: 6vw;
+		background-color: blue;
+		height: 8.25vh;
+		width: 88.8vw;
+		float: left;
+		margin-top: 3.5vh;
+	}
+	.gif{
+		/*margin-left: 9vw;*/
+		background-color: purple;
+    height: 23.4vw;
+    width: 100vw;
+    float: left;
+    overflow-x: hidden;
+    margin-top: 11.7vw;
+	}
+}
