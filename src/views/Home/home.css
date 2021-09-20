@@ -6,8 +6,6 @@
 		height: 75px;
 		margin-top: 60px;
 	}
-
-
 }
 
 @media screen and (min-width:1025px) and (max-width:1366px){
@@ -198,8 +196,8 @@
 		width: 88.5vw;
 	}
 	.heading1{
-		margin-left: 9vw;
-    background-color: #008000;
+		/* margin-left: 9vw;  */
+    background-color: green;
     /* margin-top: 73px; */
     margin-top: 5.7vw;
     height: 24.3vw;
