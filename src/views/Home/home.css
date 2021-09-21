@@ -1262,4 +1262,76 @@
     border-radius: 1.68vw;
     margin: auto;
 	}
+	.our_team {
+		/* margin-top: 15.7vw; */
+		width: 61.84vw;
+		/* height: 238vw; */
+		background-color: darkgoldenrod;
+		border-radius: 4.68vw;
+		margin: 12.26vw auto 0 auto;
+		padding:3.8vw 0;
+	}
+	.ourteamHeader {
+		/* margin-top: 3.4vw; */
+		background-color: darkgray;
+		height: 7.9vw;
+		/* width: 68.7vw; */
+	}
+	.ourbox1 {
+		/* margin-top: 3.4vw; */
+		background-color: darksalmon;
+		/* width: 34.92vw; */
+		width: 82vw;
+		height: 107.2vw;
+		border-radius: 4.36vw;
+		/* margin: 0 3.9vw; */
+		margin-left: -10vw;
+		display: flex;
+		/* margin-top: ; */
+		margin-bottom: 6.3vw;
+	}
+	.ourboxsection {
+		margin-top: 3.8vw;
+    /* width: 82vw; */
+    /* margin-left: -8vw; */
+    /* display: flex; */
+	}
+	.ourHeaderDiv {
+		display: flex;
+		width: 100%
+	}
+	.ourmain {
+		margin: 5.54vw 2.18vw;
+		width:100%
+	}
+	.teamImg {
+		width: 20.8vw;
+		height: 20.8vw;
+		background-color: darkviolet;
+		border-radius: 1.5vw;
+	}
+	.ourheaderMain{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.ourteamheader {
+		margin-left: 2.1vw;
+		width: 22.1vw;
+		height: 6.25vw;
+		background-color: deeppink;
+	}
+	.ourteamDesc {
+		margin-top: 1.3vw;
+		margin-left: 2.1vw;
+		width: 12.18vw;
+		height: 2.57vw;
+		background-color: deepskyblue;
+	}
+	.teamDescription {
+		margin-top: 2.1vw;
+		background-color: khaki;
+		width: 100%;
+		height: 68.75vw
+	}
 }
