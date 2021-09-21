@@ -148,10 +148,10 @@
 		width: 81.97vw;
 		border-radius: 3.125vw;
 		margin: auto;
-		display: flex;
-		
 	}
-
+	.earning_calc_sub{
+		display: flex;
+	}
 	.earning_calc_img{
 		background-color:rebeccapurple;
 		margin-top: 4.06vw;
@@ -177,8 +177,8 @@
 	}
 
 	.earning_calc_btn{
-		margin-top: 0.989vw;
-		margin-left: 24.899vw;
+		margin-top: -3.011vw;
+    margin-left: 41.899vw;
 		height: 4.01vw;
 		width: 27.291vw;
 		background-color: #FCCD2F;
@@ -696,12 +696,16 @@
 		padding-top: 14.1vw;
 		padding-left: 3.43vw;
 		display:flex;
+		flex-direction: column;
 	}
 	.earning_calc_img{
 		width: 33vw;
 		height:38.1vw;
 		background-color: cyan;
 		margin-right: 3.43vw;
+	}
+	.earning_calc_sub{
+		display:flex;
 	}
 	.earning_calc_header{
 		width:43.2vw;
@@ -721,7 +725,7 @@
     width: 89vw;
     height: 13.8vw;
     border-radius: 21.3vw;
-    margin-left: -37.9vw;
+    margin-left: 0vw;
     background-color: gold;
 	}
 	.whatwedo {
