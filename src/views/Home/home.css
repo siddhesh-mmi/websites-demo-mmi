@@ -489,13 +489,20 @@
 		background-color: black;
     width: 100vw;
     margin-left: 0vw;
-    height: 63pt;
+    height: 17.93vw;
     margin-top: 0vw;
     padding-top: 5vw;
+		display: flex;
+	}
+	.menuIcon {
+    width: 5.3vw;
+    height: 3.84vw;
+		margin-left: 49vw;
+    margin-top: 4.3vw;
 	}
 	.logo{
-		width: 106.89pt;
-    height: 44.67pt;
+		width: 28.5vw;
+    height: 11.9vw;
     background-color: red;
     margin-left: 7vw;
 	}
@@ -533,5 +540,63 @@
     float: left;
     overflow-x: hidden;
     margin-top: 11.7vw;
+	}
+	.eel_section{
+		margin-top: 69vw;
+	}
+	.eel_header{
+		margin-top: 12.26vw;
+    width: 88.8vw;
+    background-color:cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    height: 26.7vw;
+	}
+	.eel_para{
+		width: 88vw;
+    height: 95vw;
+    margin-top: 6vw;
+    background-color: darkgreen;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.earning_calc{
+		margin-top:12.96vw;
+		width: 88.8vw;
+		height: 95.8vw;
+		background-color: chocolate;
+		border-radius: 4.68vw;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top: 14.1vw;
+		padding-left: 3.43vw;
+		display:flex;
+	}
+	.earning_calc_img{
+		width: 33vw;
+		height:38.1vw;
+		background-color: cyan;
+		margin-right: 3.43vw;
+	}
+	.earning_calc_header{
+		width:43.2vw;
+		height: 33.86vw;
+		background-color: deeppink;
+		margin-top:0;
+	}
+	.earning_calc_para{
+		margin-top: 9.6vw;
+    width: 77.6vw;
+    height: 18.4vw;
+    background-color: darkgreen;
+    margin-left: -33vw;
+	}
+	.earning_calc_btn{
+		margin-top: 7vw;
+    width: 89vw;
+    height: 13.8vw;
+    border-radius: 21.3vw;
+    margin-left: -37.9vw;
+    background-color: gold;
 	}
 }
