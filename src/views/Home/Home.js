@@ -285,20 +285,22 @@ class Home extends React.Component{
         </div>
       </div>
       <div className="earning_calc">
-        <div className="earning_calc_img">
+        <div className="earning_calc_sub">
+          <div className="earning_calc_img">
 
+          </div>
+          <div className="earning_calc_section">
+            <div className="earning_calc_header">
+
+            </div>
+
+            <div className="earning_calc_para">
+
+            </div>
+          </div>
         </div>
-        <div className="earning_calc_section">
-          <div className="earning_calc_header">
+        <div className="earning_calc_btn">
 
-          </div>
-
-          <div className="earning_calc_para">
-
-          </div>
-          <div className="earning_calc_btn">
-
-          </div>
         </div>
       </div>
       <div className="blackband">
