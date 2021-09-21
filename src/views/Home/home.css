@@ -397,10 +397,66 @@
 	.our_team {
 		/* margin-top: 15.7vw; */
 		width: 68.67vw;
-		height: 97.1vw;
+		/* height: 97.1vw; */
 		background-color: darkgoldenrod;
 		border-radius: 4.68vw;
-		margin: 15.7vw auto 0 auto;
+		margin: 12.26vw auto 0 auto;
+		padding:3.4vw 0;
+	}
+	.ourteamHeader {
+		/* margin-top: 3.4vw; */
+		background-color: darkgray;
+		height: 4.7vw;
+		width: 68.7vw;
+	}
+	.ourbox1 {
+		/* margin-top: 3.4vw; */
+		background-color: darksalmon;
+		width: 34.92vw;
+		/* height: 79.92vw; */
+		border-radius: 4.36vw;
+		margin: 0 3.9vw;
+	}
+	.ourboxsection {
+		margin-top: 3.4vw;
+    width: 86vw;
+    margin-left: -8vw;
+    display: flex;
+	}
+	.ourHeaderDiv {
+		display: flex;
+	}
+	.ourmain {
+		margin: 5.54vw 2.18vw;
+	}
+	.teamImg {
+		width: 12.5vw;
+		height: 12.5vw;
+		background-color: darkviolet;
+		border-radius: 1.5vw;
+	}
+	.ourheaderMain{
+		display: flex;
+		flex-direction: column;
+	}
+	.ourteamheader {
+		margin-left: 2.1vw;
+		width: 18vw;
+		height: 6.25vw;
+		background-color: deeppink;
+	}
+	.ourteamDesc {
+		margin-top: 1.3vw;
+		margin-left: 2.1vw;
+		width: 12.18vw;
+		height: 2.57vw;
+		background-color: deepskyblue;
+	}
+	.teamDescription {
+		margin-top: 2.1vw;
+		background-color: khaki;
+		width: 100%;
+		height: 41.25vw
 	}
 }
 
@@ -591,6 +647,72 @@
 		width: 39.3vw;
 		/* margin-bottom: 2.7vw; */
 		margin: 2.2vw auto 4.5vw auto;
+	}
+	.our_team {
+		/* margin-top: 15.7vw; */
+		width: 61.84vw;
+		height: 238vw;
+		background-color: darkgoldenrod;
+		border-radius: 4.68vw;
+		margin: 12.26vw auto 0 auto;
+		padding:3.8vw 0;
+	}
+	.ourteamHeader {
+		/* margin-top: 3.4vw; */
+		background-color: darkgray;
+		height: 4.7vw;
+		/* width: 68.7vw; */
+	}
+	.ourbox1 {
+		/* margin-top: 3.4vw; */
+		background-color: darksalmon;
+		/* width: 34.92vw; */
+		width: 82vw;
+		height: 64.37vw;
+		border-radius: 4.36vw;
+		/* margin: 0 3.9vw; */
+		margin-left: -10vw;
+	}
+	.ourboxsection {
+		margin-top: 3.8vw;
+    /* width: 82vw; */
+    /* margin-left: -8vw; */
+    /* display: flex; */
+	}
+	.ourHeaderDiv {
+		display: flex;
+	}
+	.ourmain {
+		margin: 5.54vw 2.18vw;
+	}
+	.teamImg {
+		width: 12.5vw;
+		height: 12.5vw;
+		background-color: darkviolet;
+		border-radius: 1.5vw;
+	}
+	.ourheaderMain{
+		display: flex;
+		flex-direction: column;
+	}
+	.ourteamheader {
+		margin-left: 2.1vw;
+		width: 18vw;
+		height: 6.25vw;
+		background-color: deeppink;
+	}
+	.ourteamDesc {
+		margin-top: 1.3vw;
+		margin-left: 2.1vw;
+		width: 12.18vw;
+		height: 2.57vw;
+		background-color: deepskyblue;
+	}
+	.teamDescription {
+		margin-top: 2.1vw;
+		background-color: khaki;
+		width: 100%;
+		height: 41.25vw
 	}
 }
 @media screen and (max-width:767.68px){

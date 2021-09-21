@@ -309,7 +309,37 @@ class Home extends React.Component{
 
       </div>
       <div className="our_team">
+        <div className="ourteamHeader"></div>
+        <div className="ourboxsection">
+          <div className="ourbox1">
+            <div className="ourmain">
+              <div className="ourHeaderDiv">
+                <div className="teamImg"></div>
+                <div className="ourheaderMain">
+                  <div className="ourteamheader"></div>
+                  <div className="ourteamDesc"></div>
+                </div>
+              </div>
+              <div className="teamDescription">
 
+                </div>
+            </div>
+          </div>
+          <div className="ourbox1">
+            <div className="ourmain">
+              <div className="ourHeaderDiv">
+                <div className="teamImg"></div>
+                <div className="ourheaderMain">
+                  <div className="ourteamheader"></div>
+                  <div className="ourteamDesc"></div>
+                </div>
+              </div>
+              <div className="teamDescription">
+
+                </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="about_us">
 
