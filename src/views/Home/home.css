@@ -417,12 +417,13 @@
 
 	.section1{
 		margin-left: 9vw;
-		/*height: 279px;*/
-		height: 21.7vw;
-		background-color: grey;
-		/*margin-top: 125px;*/
-		margin-top: 41.6vw;
-		width: 82vw;
+    /* height: 279px; */
+    height: 21.7vw;
+    background-color: grey;
+    /* margin-top: 125px; */
+    margin-top: 38.6vw;
+    width: 82vw;
+    margin-bottom: 16.8vw;
 	}
 
 	.heading1{
@@ -452,7 +453,7 @@
 		height: 13vw;
 		width: 82vw;
 		/* float: left; */
-		margin-top: 2.8vw;
+		/* margin-top: 2.8vw; */
 	}
 
 	.gif{
