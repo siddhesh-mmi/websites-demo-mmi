@@ -148,10 +148,10 @@
 		width: 81.97vw;
 		border-radius: 3.125vw;
 		margin: auto;
-		display: flex;
-		
 	}
-
+	.earning_calc_sub{
+		display: flex;
+	}
 	.earning_calc_img{
 		background-color:rebeccapurple;
 		margin-top: 4.06vw;
@@ -177,8 +177,8 @@
 	}
 
 	.earning_calc_btn{
-		margin-top: 0.989vw;
-		margin-left: 24.899vw;
+		margin-top: -3.011vw;
+    margin-left: 41.899vw;
 		height: 4.01vw;
 		width: 27.291vw;
 		background-color: #FCCD2F;
@@ -277,26 +277,231 @@
 	.whatwedo {
 		margin-top: 10.4vw;
 		width: 68vw;
-		height: 47vw;
+		height: 46.7vw;
 		background-color: brown;
 		margin-left: auto;
 		margin-right: auto;
 		border-radius: 4.68vw;
+		/* padding-top: 3.4vw; */
+	}
+	.whatwedoHeaderMain {
 		padding-top: 3.4vw;
 	}
 	.whatwedoHeader {
-		/* margin-top: 3.4vw; */
 		background-color: burlywood;
 		width: 26.2vw;
 		height: 4.76vw;
 		margin:0 auto ;
 	}
 	.box1 {
-		margin-top: 3.4vw;
 		width: 26.25vw;
-		height: 31.7vw;
+		/* height: 31.7vw; */
 		border-radius: 4.68vw;
 		background-color: cadetblue;
+		margin: 0 1vw;
+		padding: 2.1vw 1.3vw 0 1.3vw;
+	}
+	.boxsection {
+		margin-top: 3.4vw;
+    width: 86vw;
+    margin-left: -9vw;
+    display: flex;
+	}
+	.eel_section{
+		margin-top: 11vw;
+	}
+	.eel_header{
+		margin-top: 12.26vw;
+    width: 75.54vw;
+    background-color:cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4.7vw;
+	}
+	.eel_para{
+		width: 77vw;
+    height: 18.75vw;
+    margin-top: 6vw;
+    background-color: darkgreen;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.earning_calc{
+		margin-top:12.96vw;
+		width: 78vw;
+		height: 20.2vw;
+		background-color: chocolate;
+		border-radius: 4.68vw;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top: 5.42vw;
+		padding-left: 3.43vw;
+		/* display:flex; */
+	}
+	.earning_calc_img{
+		width:14.35vw;
+		height:14.76vw;
+		background-color: cyan;
+		margin-right: 3.43vw;
+	}
+	.earning_calc_header{
+		width:46.8vw;
+		height: 4.7vw;
+		background-color: deeppink;
+		margin-top:-1.2vw;
+	}
+	.earning_calc_para{
+		margin-top: 1.3vw;
+		width:55.46vw;
+		height:5.15vw;
+		background-color: darkgreen;
+	}
+	.earning_calc_btn{
+		margin-top: -3.3vw;
+		width:32.34vw;
+		height:4.68vw;
+		border-radius: 4.68vw;
+		/* margin-left: 23.1vw; */
+		background-color: gold;
+		/* display: flex;
+		justify-content: flex-end; */
+		/* float: right; */
+		margin-right: 4.8vw;
+	}
+	.btnDiv {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.earning_calc_sub {
+		display: flex;
+	}
+	.number {
+		width: 5.5vw;
+		height: 5.5vw;
+		background-color: gold;
+		border-radius: 50%;
+	}
+	.boxHeader {
+		width: 23.5vw;
+		height: 6.2vw;
+		margin-top: 1.3vw;
+		background-color: chartreuse;
+	}
+	.boxDescription{
+		margin-top: 1.3vw;
+		background-color: coral;
+		height: 13vw;
+		width: 23.5vw;
+		margin-bottom: 2.7vw;
+	}
+	.about_us{
+		padding-top: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 100vw;
+		padding-bottom:6vw;
+	}
+	.aboutusdesc{
+		display:flex;
+	}
+	.aboutusheading{
+		width: 14.21vw;
+    height: 4.7vw;
+    background-color: red;
+    margin-left: 9vw;
+    margin-right: auto;
+	}
+	.aboutusdescription{
+		margin-top: 2vw;
+    width: 62.1vw;
+    background-color: darkgreen;
+    height: 28.3vw;
+    margin-left: 9vw;
+		margin-right:2vw;
+	}
+	.aboutusimg{
+		width: 17.65vw;
+    height: 37vw;
+    background-color: cornflowerblue;
+    margin-top: -4vw;
+	}
+	.subscribebox{
+		margin-top:12.96vw;
+		width: 82vw;
+		height: 22.2vw;
+		background-color: chocolate;
+		border-radius: 4.68vw;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top: 2.42vw;
+		/* display:flex; */
+	}
+	.subscribeheading{
+		width: 45.93vw;
+    height: 5vw;
+    background-color: mediumvioletred;
+    text-align: center;
+    margin: auto;
+	}
+	.subscribe_para{
+		width: 61.7vw;
+    height: 6vw;
+    background-color: bisque;
+    margin: 2vw auto;
+	}
+	.subscribeform{
+		display:flex;
+		margin:auto;
+		width:60vw;
+	}
+	.input1{
+		width: 23.59vw;
+    height: 4.68vw;
+    background-color: green;
+    /* margin: auto; */
+    margin-right: 2vw;
+    border-radius: 1.3vw
+	}
+	.input2{
+		width: 23.59vw;
+    height: 4.68vw;
+    background-color: green;
+    /* margin: auto; */
+    margin-right: 2vw;
+    border-radius: 1.3vw
+	}
+	.subscribeBtn{
+		width: 9.6vw;
+    height: 4.68vw;
+    background-color: gold;
+    /* margin: auto; */
+    border-radius: 4.68vw;
+	}
+	.join{
+		padding-top: 10vw;
+    background-color: #0e0e0e;
+		padding-bottom: 10vw;
+	}
+	.joinheading{
+		width: 75.54vw;
+		height: 4.76vw;
+		margin-left: auto;
+		margin-right:auto;
+		background-color:seagreen;
+	}
+	.joinimg{
+		margin: auto;
+    display: flex;
+    margin-top: 3.4vw;
+		width:22vw;
+	}
+	.jointwitter{
+		width: 7.8vw;
+    height: 7.8vw;
+    background-color: gold;
+    border-radius: 1.68vw;
+    margin: auto;
 	}
 }
 
@@ -309,27 +514,36 @@
 		width: 82vw;
 		margin-left: 9vw;
 		height:12.33vw;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 		/* height: 50px; */
-		margin-top: 3.1vw;
+		/* margin-top: 3.1vw; */
+	}
+
+	.menuIcon{
+		width: 4.51vw;
+		height: 3.26vw
 	}
 
 	.logo{
-		width: 13.93vw;
+		width: 18.55vw;
 		/* height: 50px; */
-		height:12.33vw;
+		height:8vw;
 		background-color: red;
 		/* margin-top: 40px; */
-		margin-top: 3.1vw;
+		/* margin-top: 2.2vw; */
 	}
 
 	.section1{
 		margin-left: 9vw;
-		/*height: 279px;*/
-		height: 21.7vw;
-		background-color: grey;
-		/*margin-top: 125px;*/
-		margin-top: 41.6vw;
-		width: 82vw;
+    /* height: 279px; */
+    height: 21.7vw;
+    background-color: grey;
+    /* margin-top: 125px; */
+    margin-top: 38.6vw;
+    width: 82vw;
+    margin-bottom: 16.8vw;
 	}
 
 	.heading1{
@@ -340,28 +554,26 @@
 	}
 
 	.image1{
-		margin-left: 2.7vw;
-		/* background-color: red; */
-		height: 21.79vw;
-		width: 23.5vw;
-		float: left;
 		display: none;
 	}
 
 	.image_1{
-		/* background-color: red; */
-		height: 21.79vw;
-		width: 23.5vw;
 		float: left;
 	}
 
 	.subsection1{
+		/* margin-left: 9vw;
+		background-color: blue;
+		height: 13vw;
+		width: 82vw;
+		/* float: left; 
+		margin-top: 2.8vw; */
 		margin-left: 9vw;
 		background-color: blue;
 		height: 13vw;
 		width: 82vw;
-		float: left;
-		margin-top: 3.5vh;
+		/* float: left; */
+		/* margin-top: 2.8vw; */
 	}
 
 	.gif{
@@ -369,9 +581,319 @@
 		background-color: purple;
 		height: 17vw;
 		width: 100vw;
-		float: left;
-		overflow-x: hidden;
+		/* float: left; */
+		/* overflow-x: hidden; */
 		margin-top: 13vw;
+		margin-bottom: 7vw;
+	}
+
+	.eel_section{
+		margin-top: 11vw;
+	}
+	.eel_header{
+		margin-top: 23.9vw;
+    width: 82vw;
+    background-color:cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7.7vw;
+	}
+	.eel_para{
+		width: 82vw;
+    height: 20vw;
+    margin-top: 6vw;
+    background-color: darkgreen;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.earning_calc{
+		margin-top:23.9vw;
+		width: 82vw;
+		height: 51.4vw;
+		background-color: chocolate;
+		border-radius: 4.68vw;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top: 5.42vw;
+		padding-left: 3.43vw;
+		
+	}
+	.earning_calc_img{
+		width: 23.6vw;
+    height: 24.6vw;
+		background-color: cyan;
+		margin-right: 3.43vw;
+	}
+	.earning_calc_header{
+		width: 42.1vw;
+		height: 17.7vw;
+		background-color: deeppink;
+		margin-top:1.9vw;
+	}
+	.earning_calc_para{
+		margin-top: 1.3vw;
+		width:49vw;
+		height:12.9vw;
+		background-color: darkgreen;
+	}
+	.earning_calc_btn{
+		margin-top: 2.8vw;
+		width: 53.9vw;
+		height:7.8vw;
+		border-radius: 4.68vw;
+		/* margin-left: 23.1vw; */
+		margin-left: auto;
+		margin-right: auto;
+		background-color: gold;
+	}
+	.earning_calc_sub {
+		display:flex;
+	}
+	.whatwedo {
+		margin-top: 10.4vw;
+		width: 62vw;
+		height: 201.56vw;
+		background-color: brown;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 4.68vw;
+		/* padding-top: 3.4vw; */
+	}
+	.whatwedoHeaderMain {
+		padding-top: 4.55vw;
+	}
+	.whatwedoHeader {
+		background-color: burlywood;
+		/* width: 82vw; */
+		height: 7.9vw;
+		margin:0 auto ;
+	}
+	.box1 {
+		width: 45.2vw;
+		/* height: 46.2vw; */
+		border-radius: 4.68vw;
+		background-color: cadetblue;
+		margin: 3.7vw 0;
+		padding: 0 5.5vw;
+		/* text-align: center; */
+	}
+	.boxsection {
+		/* margin-top: 4.55vw; */
+    /* width: 86vw; */
+    /* margin-left: -9vw; */
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* justify-content: center; */
+	}
+	.number {
+		width: 9.2vw;
+		height: 9.2vw;
+		background-color: gold;
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 4.5vw;
+	}
+	.boxHeader {
+		/* text-align: center; */
+		width: 39.3vw;
+		height: 10.4vw;
+		/* margin-top: 1.3vw; */
+		background-color: chartreuse;
+		margin: 2.2vw auto 0 auto;
+	}
+	.boxDescription{
+		/* margin-top: 1.3vw; */
+		background-color: coral;
+		height: 21.48vw;
+		width: 39.3vw;
+		/* margin-bottom: 2.7vw; */
+		margin: 2.2vw auto 4.5vw auto;
+	}
+	.our_team {
+		/* margin-top: 15.7vw; */
+		width: 61.84vw;
+		/* height: 238vw; */
+		background-color: darkgoldenrod;
+		border-radius: 4.68vw;
+		margin: 12.26vw auto 0 auto;
+		padding:3.8vw 0;
+	}
+	.ourteamHeader {
+		/* margin-top: 3.4vw; */
+		background-color: darkgray;
+		height: 7.9vw;
+		/* width: 68.7vw; */
+	}
+	.ourbox1 {
+		/* margin-top: 3.4vw; */
+		background-color: darksalmon;
+		/* width: 34.92vw; */
+		width: 82vw;
+		height: 107.2vw;
+		border-radius: 4.36vw;
+		/* margin: 0 3.9vw; */
+		margin-left: -10vw;
+		display: flex;
+		/* margin-top: ; */
+		margin-bottom: 6.3vw;
+	}
+	.ourboxsection {
+		margin-top: 3.8vw;
+    /* width: 82vw; */
+    /* margin-left: -8vw; */
+    /* display: flex; */
+	}
+	.ourHeaderDiv {
+		display: flex;
+		width: 100%
+	}
+	.ourmain {
+		margin: 5.54vw 2.18vw;
+		width:100%
+	}
+	.teamImg {
+		width: 20.8vw;
+		height: 20.8vw;
+		background-color: darkviolet;
+		border-radius: 1.5vw;
+	}
+	.ourheaderMain{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.ourteamheader {
+		margin-left: 2.1vw;
+		width: 22.1vw;
+		height: 6.25vw;
+		background-color: deeppink;
+	}
+	.ourteamDesc {
+		margin-top: 1.3vw;
+		margin-left: 2.1vw;
+		width: 12.18vw;
+		height: 2.57vw;
+		background-color: deepskyblue;
+	}
+	.teamDescription {
+		margin-top: 2.1vw;
+		background-color: khaki;
+		width: 100%;
+		height: 68.75vw
+	}
+	.about_us{
+		padding-top: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 100vw;
+		padding-bottom:6vw;
+	}
+	.aboutusheading{
+		width: 34.9vw;
+    height: 11.4vw;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.aboutusdesc{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.aboutusdescription{
+		margin-top: 2vw;
+    width: 82vw;
+    background-color: darkgreen;
+    height: 55.85vw;
+    margin-left: auto;
+		margin-right:auto;
+	}
+	.aboutusimg{
+		width: 50vw;
+    height: 37vw;
+    background-color: cornflowerblue;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+	}
+	.subscribebox{
+		margin-top: 12.96vw;
+    width: 88.8vw;
+    height: 110.4vw;
+    background-color: chocolate;
+    border-radius: 4.68vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12.42vw;
+	}
+	.subscribeheading{
+		width: 77.6vw;
+    height: 19vw;
+    background-color: mediumvioletred;
+    text-align: center;
+    margin: auto;
+	}
+	.subscribe_para{
+		width: 77.6vw;
+    height: 23vw;
+    background-color: bisque;
+    margin: 7vw auto;
+	}
+	.subscribeform{
+		display: grid;
+    margin: auto;
+    width: 77vw;
+	}
+	.input1{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.input2{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: 3vw auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.subscribeBtn{
+		width: 23.6vw;
+    height: 8.68vw;
+    background-color: gold;
+    margin: 3vw auto;
+    border-radius: 4.68vw;
+	}
+	.join{
+		padding-top: 22vw;
+    background-color: #0e0e0e;
+		padding-bottom: 22vw;
+	}
+	.joinheading{
+		width: 75.54vw;
+		height: 4.76vw;
+		margin-left: auto;
+		margin-right:auto;
+		background-color:seagreen;
+	}
+	.joinimg{
+		margin: auto;
+    display: flex;
+    margin-top: 3.4vw;
+		width:22vw;
+	}
+	.jointwitter{
+		width: 7.8vw;
+    height: 7.8vw;
+    background-color: gold;
+    border-radius: 1.68vw;
+    margin: auto;
 	}
 }
 @media screen and (max-width:767.68px){
@@ -383,15 +905,22 @@
 	}
 	.header{
 		background-color: black;
-    width: 100vw;
+    width: 99.8vw;
     margin-left: 0vw;
-    height: 63pt;
+    height: 17.93vw;
     margin-top: 0vw;
     padding-top: 5vw;
+		display: flex;
+	}
+	.menuIcon {
+    width: 5.3vw;
+    height: 3.84vw;
+		margin-left: 49vw;
+    margin-top: 4.3vw;
 	}
 	.logo{
-		width: 106.89pt;
-    height: 44.67pt;
+		width: 28.5vw;
+    height: 11.9vw;
     background-color: red;
     margin-left: 7vw;
 	}
@@ -416,7 +945,7 @@
 	.subsection1{
 		margin-left: 6vw;
 		background-color: blue;
-		height: 8.25vh;
+		height: 8.25vw;
 		width: 88.8vw;
 		float: left;
 		margin-top: 3.5vh;
@@ -429,5 +958,241 @@
     float: left;
     overflow-x: hidden;
     margin-top: 11.7vw;
+	}
+	.eel_section{
+		margin-top: 20vw;
+	}
+	.eel_header{
+		margin-top: 12.26vw;
+    width: 88.8vw;
+    background-color:cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    height: 26.7vw;
+	}
+	.eel_para{
+		width: 88vw;
+    height: 95vw;
+    margin-top: 6vw;
+    background-color: darkgreen;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.earning_calc{
+		margin-top:12.96vw;
+		width: 88.8vw;
+		height: 95.8vw;
+		background-color: chocolate;
+		border-radius: 21.3vw;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top: 14.1vw;
+		padding-left: 3.43vw;
+		display:flex;
+		flex-direction: column;
+	}
+	.earning_calc_img{
+		width: 33vw;
+		height:38.1vw;
+		background-color: cyan;
+		margin-right: 3.43vw;
+	}
+	.earning_calc_sub{
+		display:flex;
+	}
+	.earning_calc_header{
+		width:43.2vw;
+		height: 33.86vw;
+		background-color: deeppink;
+		margin-top:0;
+	}
+	.earning_calc_para{
+		margin-top: 9.6vw;
+    width: 77.6vw;
+    height: 18.4vw;
+    background-color: darkgreen;
+    margin-left: -33vw;
+	}
+	.earning_calc_btn{
+		margin-top: 7vw;
+    width: 89vw;
+    height: 13.8vw;
+    border-radius: 21.3vw;
+    margin-left: 0vw;
+    background-color: gold;
+	}
+	.whatwedo {
+		margin-top: 66.4vw;
+		width: 88.8vw;
+		height: 314vw;
+		background-color: brown;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 21.3vw;
+		/* padding-top: 3.4vw; */
+	}
+	.whatwedoHeaderMain {
+		padding-top: 12vw;
+	}
+	.whatwedoHeader {
+		background-color: burlywood;
+		width: 88.8vw;
+		height: 11.46vw;
+		margin:0 auto ;
+	}
+	.box1 {
+		width: 65vw;
+		height: 78.1vw;
+		border-radius: 21.3vw;
+		background-color: cadetblue;
+		margin: 7.4vw 0;
+		padding: 0 5.5vw;
+		/* text-align: center; */
+	}
+	.boxsection {
+		/* margin-top: 4.55vw; */
+    /* width: 86vw; */
+    /* margin-left: -9vw; */
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* justify-content: center; */
+	}
+	.number {
+		width: 12vw;
+		height: 12vw;
+		background-color: gold;
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 14.6vw;
+	}
+	.boxHeader {
+		/* text-align: center; */
+		width: 59.1vw;
+		height: 14.9vw;
+		/* margin-top: 1.3vw; */
+		background-color: chartreuse;
+		margin: 2.2vw auto 0 auto;
+	}
+	.boxDescription{
+		/* margin-top: 1.3vw; */
+		background-color: coral;
+		height: 24.48vw;
+		width: 58.9vw;
+		/* margin-bottom: 2.7vw; */
+		margin: 2.2vw auto 4.5vw auto;
+	}
+	.about_us{
+		padding-top: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 100vw;
+		padding-bottom:6vw;
+	}
+	.aboutusheading{
+		width: 34.9vw;
+    height: 11.4vw;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.aboutusdesc{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.aboutusdescription{
+		margin-top: 2vw;
+    width: 77.6vw;
+    background-color: darkgreen;
+    height: 116.5vw;
+    margin-left: auto;
+		margin-right:auto;
+	}
+	.aboutusimg{
+		width: 50vw;
+    height: 37vw;
+    background-color: cornflowerblue;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+	}
+	.subscribebox{
+		margin-top: 12.96vw;
+    width: 88.8vw;
+    height: 110.4vw;
+    background-color: chocolate;
+    border-radius: 21.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12.42vw;
+	}
+	.subscribeheading{
+		width: 77.6vw;
+    height: 19vw;
+    background-color: mediumvioletred;
+    text-align: center;
+    margin: auto;
+	}
+	.subscribe_para{
+		width: 77.6vw;
+    height: 23vw;
+    background-color: bisque;
+    margin: 7vw auto;
+	}
+	.subscribeform{
+		display: grid;
+    margin: auto;
+    width: 77vw;
+	}
+	.input1{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.input2{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: 3vw auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.subscribeBtn{
+		width: 23.6vw;
+    height: 8.68vw;
+    background-color: gold;
+    margin: 3vw auto;
+    border-radius: 4.68vw;
+	}
+	.join{
+		padding-top: 22vw;
+    background-color: #0e0e0e;
+		padding-bottom: 22vw;
+	}
+	.joinheading{
+		width: 77.6vw;
+    height: 22.6vw;
+		margin-left: auto;
+		margin-right:auto;
+		background-color: violet;
+	}
+	.joinimg{
+		margin: auto;
+    display: flex;
+    margin-top: 12vw;
+		width:54vw;
+	}
+	.jointwitter{
+		width: 14.6vw;
+    height: 14.6vw;
+    background-color: gold;
+    border-radius: 1.68vw;
+    margin: auto;
 	}
 }

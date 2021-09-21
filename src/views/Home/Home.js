@@ -15,7 +15,7 @@ import './home.css';
 // import aboutusimg from '../assets/aboutusimage.svg'
 // import david from '../assets/david.webp'
 // import rajendra from '../assets/rajendra.webp'
-// import howmuchimg from '../assets/howmuchimg.svg'
+import MenuIcon from '../../assets/images/menu.svg'
  import cardanoLogo from '../../assets/images/cardanologo.png'
 // import { Helmet } from "react-helmet";
 
@@ -220,6 +220,9 @@ class Home extends React.Component{
       <div className="header">
         <div className="logo"></div>
         <div className="menu"></div>
+        {/* <div className="menuIcon"> */}
+          <img className="menuIcon" src={MenuIcon} alt="MenuIcon"/>
+          {/* </div> */}
       </div>
       <div className="section1">
         <div className="heading1"></div>
@@ -233,7 +236,7 @@ class Home extends React.Component{
         <div className="gif">
       </div>
       <div className="whatwedo_bg">
-        <div className="whatwedo">
+        {/* <div className="whatwedo">
         
         </div>
         <div className="whatwedo_section">
@@ -246,7 +249,31 @@ class Home extends React.Component{
           <div className="whatwedo_section_data">
           
           </div>
+        </div> */}
+              <div>
+        <div className="whatwedo">
+          <div className="whatwedoHeaderMain">
+          <div className="whatwedoHeader"></div>
+          </div>
+          <div className="boxsection">
+            <div className="box1">
+              <div className="number"></div>
+              <div className="boxHeader"></div>
+              <div className="boxDescription"></div>
+            </div>
+            <div className="box1">
+              <div className="number"></div>
+              <div className="boxHeader"></div>
+              <div className="boxDescription"></div>
+            </div>
+            <div className="box1">
+              <div className="number"></div>
+              <div className="boxHeader"></div>
+              <div className="boxDescription"></div>
+            </div>
+          </div>
         </div>
+      </div>
       </div> 
       
       <div className="eel_section">
@@ -258,36 +285,95 @@ class Home extends React.Component{
         </div>
       </div>
       <div className="earning_calc">
-        <div className="earning_calc_img">
+        <div className="earning_calc_sub">
+          <div className="earning_calc_img">
+
+          </div>
+          <div className="earning_calc_section">
+            <div className="earning_calc_header">
+
+            </div>
+
+            <div className="earning_calc_para">
+
+            </div>
+          </div>
+        </div>
+        <div className="btnDiv">
+        <div className="earning_calc_btn">
 
         </div>
-        <div className="earning_calc_section">
-          <div className="earning_calc_header">
-
-          </div>
-
-          <div className="earning_calc_para">
-
-          </div>
-          <div className="earning_calc_btn">
-
-          </div>
         </div>
       </div>
       <div className="blackband">
 
       </div>
       <div className="our_team">
+        <div className="ourteamHeader"></div>
+        <div className="ourboxsection">
+          <div className="ourbox1">
+            <div className="ourmain">
+              <div className="ourHeaderDiv">
+                <div className="teamImg"></div>
+                <div className="ourheaderMain">
+                  <div className="ourteamheader"></div>
+                  <div className="ourteamDesc"></div>
+                </div>
+              </div>
+              <div className="teamDescription">
 
+                </div>
+            </div>
+          </div>
+          <div className="ourbox1">
+            <div className="ourmain">
+              <div className="ourHeaderDiv">
+                <div className="teamImg"></div>
+                <div className="ourheaderMain">
+                  <div className="ourteamheader"></div>
+                  <div className="ourteamDesc"></div>
+                </div>
+              </div>
+              <div className="teamDescription">
+
+                </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="about_us">
+        <div className="aboutusheading"></div>
+        <div className="aboutusdesc">
+          <div className="aboutusdescription">
+
+          </div>
+          <div className="aboutusimg">
+
+          </div>
+        </div>
 
       </div>
       <div className="subscribe">
+        <div className="subscribebox">
+            <div className="subscribeheading">
 
+            </div>
+            <div className="subscribe_para">
+
+            </div>
+            <div className="subscribeform">
+              <div className="input1"></div>
+              <div className="input2"></div>
+              <div className="subscribeBtn"></div>
+            </div>
+        </div>
       </div>
       <div className="join">
-
+        <div className="joinheading"></div>
+        <div className="joinimg">
+          <div className="jointwitter"></div>
+          <div className="jointwitter"></div>
+        </div>
       </div>
       <div className="footer">
         
