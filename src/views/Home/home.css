@@ -426,6 +426,58 @@
     background-color: cornflowerblue;
     margin-top: -4vw;
 	}
+	.subscribebox{
+		margin-top:12.96vw;
+		width: 82vw;
+		height: 22.2vw;
+		background-color: chocolate;
+		border-radius: 4.68vw;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top: 2.42vw;
+		/* display:flex; */
+	}
+	.subscribeheading{
+		width: 45.93vw;
+    height: 5vw;
+    background-color: mediumvioletred;
+    text-align: center;
+    margin: auto;
+	}
+	.subscribe_para{
+		width: 61.7vw;
+    height: 6vw;
+    background-color: bisque;
+    margin: 2vw auto;
+	}
+	.subscribeform{
+		display:flex;
+		margin:auto;
+		width:60vw;
+	}
+	.input1{
+		width: 23.59vw;
+    height: 4.68vw;
+    background-color: green;
+    /* margin: auto; */
+    margin-right: 2vw;
+    border-radius: 1.3vw
+	}
+	.input2{
+		width: 23.59vw;
+    height: 4.68vw;
+    background-color: green;
+    /* margin: auto; */
+    margin-right: 2vw;
+    border-radius: 1.3vw
+	}
+	.subscribeBtn{
+		width: 9.6vw;
+    height: 4.68vw;
+    background-color: gold;
+    /* margin: auto; */
+    border-radius: 4.68vw;
+	}
 }
 
 @media screen and (min-width:768px) and (max-width:1024px){
@@ -670,6 +722,57 @@
     margin-right: auto;
     margin-bottom: 5vw;
 	}
+	.subscribebox{
+		margin-top: 12.96vw;
+    width: 88.8vw;
+    height: 110.4vw;
+    background-color: chocolate;
+    border-radius: 21.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12.42vw;
+	}
+	.subscribeheading{
+		width: 77.6vw;
+    height: 19vw;
+    background-color: mediumvioletred;
+    text-align: center;
+    margin: auto;
+	}
+	.subscribe_para{
+		width: 77.6vw;
+    height: 23vw;
+    background-color: bisque;
+    margin: 7vw auto;
+	}
+	.subscribeform{
+		display: grid;
+    margin: auto;
+    width: 77vw;
+	}
+	.input1{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.input2{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: 3vw auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.subscribeBtn{
+		width: 23.6vw;
+    height: 8.68vw;
+    background-color: gold;
+    margin: 3vw auto;
+    border-radius: 4.68vw;
+	}
 }
 @media screen and (max-width:767.68px){
 	body{
@@ -893,5 +996,56 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5vw;
+	}
+	.subscribebox{
+		margin-top: 12.96vw;
+    width: 88.8vw;
+    height: 110.4vw;
+    background-color: chocolate;
+    border-radius: 21.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12.42vw;
+	}
+	.subscribeheading{
+		width: 77.6vw;
+    height: 19vw;
+    background-color: mediumvioletred;
+    text-align: center;
+    margin: auto;
+	}
+	.subscribe_para{
+		width: 77.6vw;
+    height: 23vw;
+    background-color: bisque;
+    margin: 7vw auto;
+	}
+	.subscribeform{
+		display: grid;
+    margin: auto;
+    width: 77vw;
+	}
+	.input1{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.input2{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: 3vw auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.subscribeBtn{
+		width: 23.6vw;
+    height: 8.68vw;
+    background-color: gold;
+    margin: 3vw auto;
+    border-radius: 4.68vw;
 	}
 }
