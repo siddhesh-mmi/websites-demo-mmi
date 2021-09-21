@@ -295,10 +295,11 @@
 	}
 	.box1 {
 		width: 26.25vw;
-		height: 31.7vw;
+		/* height: 31.7vw; */
 		border-radius: 4.68vw;
 		background-color: cadetblue;
 		margin: 0 1vw;
+		padding: 2.1vw 1.3vw 0 1.3vw;
 	}
 	.boxsection {
 		margin-top: 3.4vw;
@@ -362,6 +363,25 @@
 		border-radius: 4.68vw;
 		margin-left: 23.1vw;
 		background-color: gold;
+	}
+	.number {
+		width: 5.5vw;
+		height: 5.5vw;
+		background-color: gold;
+		border-radius: 50%;
+	}
+	.boxHeader {
+		width: 23.5vw;
+		height: 6.2vw;
+		margin-top: 1.3vw;
+		background-color: chartreuse;
+	}
+	.boxDescription{
+		margin-top: 1.3vw;
+		background-color: coral;
+		height: 13vw;
+		width: 23.5vw;
+		margin-bottom: 2.7vw;
 	}
 }
 
@@ -443,12 +463,13 @@
 		/* float: left; */
 		/* overflow-x: hidden; */
 		margin-top: 13vw;
+		margin-bottom: 7vw;
 	}
 
 	.whatwedo {
 		margin-top: 10.4vw;
-		width: 68vw;
-		height: 46.7vw;
+		width: 62vw;
+		height: 201.56vw;
 		background-color: brown;
 		margin-left: auto;
 		margin-right: auto;
@@ -456,26 +477,56 @@
 		/* padding-top: 3.4vw; */
 	}
 	.whatwedoHeaderMain {
-		padding-top: 3.4vw;
+		padding-top: 4.55vw;
 	}
 	.whatwedoHeader {
 		background-color: burlywood;
 		width: 26.2vw;
-		height: 4.76vw;
+		height: 7.9vw;
 		margin:0 auto ;
 	}
 	.box1 {
-		width: 26.25vw;
-		height: 31.7vw;
+		width: 45.2vw;
+		/* height: 46.2vw; */
 		border-radius: 4.68vw;
 		background-color: cadetblue;
-		margin: 0 1vw;
+		margin: 3.7vw 0;
+		padding: 0 5.5vw;
+		/* text-align: center; */
 	}
 	.boxsection {
-		margin-top: 3.4vw;
-    width: 86vw;
-    margin-left: -9vw;
+		/* margin-top: 4.55vw; */
+    /* width: 86vw; */
+    /* margin-left: -9vw; */
     display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* justify-content: center; */
+	}
+	.number {
+		width: 9.2vw;
+		height: 9.2vw;
+		background-color: gold;
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 4.5vw;
+	}
+	.boxHeader {
+		/* text-align: center; */
+		width: 39.3vw;
+		height: 10.4vw;
+		/* margin-top: 1.3vw; */
+		background-color: chartreuse;
+		margin: 2.2vw auto 0 auto;
+	}
+	.boxDescription{
+		/* margin-top: 1.3vw; */
+		background-color: coral;
+		height: 21.48vw;
+		width: 39.3vw;
+		/* margin-bottom: 2.7vw; */
+		margin: 2.2vw auto 4.5vw auto;
 	}
 }
 @media screen and (max-width:767.68px){

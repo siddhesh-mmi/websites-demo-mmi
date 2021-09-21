@@ -256,9 +256,21 @@ class Home extends React.Component{
           <div className="whatwedoHeader"></div>
           </div>
           <div className="boxsection">
-            <div className="box1"></div>
-            <div className="box1"></div>
-            <div className="box1"></div>
+            <div className="box1">
+              <div className="number"></div>
+              <div className="boxHeader"></div>
+              <div className="boxDescription"></div>
+            </div>
+            <div className="box1">
+              <div className="number"></div>
+              <div className="boxHeader"></div>
+              <div className="boxDescription"></div>
+            </div>
+            <div className="box1">
+              <div className="number"></div>
+              <div className="boxHeader"></div>
+              <div className="boxDescription"></div>
+            </div>
           </div>
         </div>
       </div>
