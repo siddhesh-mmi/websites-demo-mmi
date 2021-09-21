@@ -786,6 +786,7 @@
 	.ourheaderMain{
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 	}
 	.ourteamheader {
 		margin-left: 2.1vw;
