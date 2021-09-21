@@ -221,7 +221,7 @@ class Home extends React.Component{
         <div className="logo"></div>
         <div className="menu"></div>
         {/* <div className="menuIcon"> */}
-          <img className="menuIcon" src={MenuIcon} />
+          <img className="menuIcon" src={MenuIcon} alt="MenuIcon"/>
           {/* </div> */}
       </div>
       <div className="section1">
