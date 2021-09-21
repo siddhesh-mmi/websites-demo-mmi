@@ -277,26 +277,34 @@
 	.whatwedo {
 		margin-top: 10.4vw;
 		width: 68vw;
-		height: 47vw;
+		height: 46.7vw;
 		background-color: brown;
 		margin-left: auto;
 		margin-right: auto;
 		border-radius: 4.68vw;
+		/* padding-top: 3.4vw; */
+	}
+	.whatwedoHeaderMain {
 		padding-top: 3.4vw;
 	}
 	.whatwedoHeader {
-		/* margin-top: 3.4vw; */
 		background-color: burlywood;
 		width: 26.2vw;
 		height: 4.76vw;
 		margin:0 auto ;
 	}
 	.box1 {
-		margin-top: 3.4vw;
 		width: 26.25vw;
 		height: 31.7vw;
 		border-radius: 4.68vw;
 		background-color: cadetblue;
+		margin: 0 1vw;
+	}
+	.boxsection {
+		margin-top: 3.4vw;
+    width: 86vw;
+    margin-left: -9vw;
+    display: flex;
 	}
 }
 
@@ -309,17 +317,25 @@
 		width: 82vw;
 		margin-left: 9vw;
 		height:12.33vw;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 		/* height: 50px; */
-		margin-top: 3.1vw;
+		/* margin-top: 3.1vw; */
+	}
+
+	.menuIcon{
+		width: 4.51vw;
+		height: 3.26vw
 	}
 
 	.logo{
-		width: 13.93vw;
+		width: 18.55vw;
 		/* height: 50px; */
-		height:12.33vw;
+		height:8vw;
 		background-color: red;
 		/* margin-top: 40px; */
-		margin-top: 3.1vw;
+		/* margin-top: 2.2vw; */
 	}
 
 	.section1{
@@ -340,28 +356,26 @@
 	}
 
 	.image1{
-		margin-left: 2.7vw;
-		/* background-color: red; */
-		height: 21.79vw;
-		width: 23.5vw;
-		float: left;
 		display: none;
 	}
 
 	.image_1{
-		/* background-color: red; */
-		height: 21.79vw;
-		width: 23.5vw;
 		float: left;
 	}
 
 	.subsection1{
+		/* margin-left: 9vw;
+		background-color: blue;
+		height: 13vw;
+		width: 82vw;
+		/* float: left; 
+		margin-top: 2.8vw; */
 		margin-left: 9vw;
 		background-color: blue;
 		height: 13vw;
 		width: 82vw;
-		float: left;
-		margin-top: 3.5vh;
+		/* float: left; */
+		margin-top: 2.8vw;
 	}
 
 	.gif{
@@ -369,9 +383,42 @@
 		background-color: purple;
 		height: 17vw;
 		width: 100vw;
-		float: left;
-		overflow-x: hidden;
+		/* float: left; */
+		/* overflow-x: hidden; */
 		margin-top: 13vw;
+	}
+
+	.whatwedo {
+		margin-top: 10.4vw;
+		width: 68vw;
+		height: 46.7vw;
+		background-color: brown;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 4.68vw;
+		/* padding-top: 3.4vw; */
+	}
+	.whatwedoHeaderMain {
+		padding-top: 3.4vw;
+	}
+	.whatwedoHeader {
+		background-color: burlywood;
+		width: 26.2vw;
+		height: 4.76vw;
+		margin:0 auto ;
+	}
+	.box1 {
+		width: 26.25vw;
+		height: 31.7vw;
+		border-radius: 4.68vw;
+		background-color: cadetblue;
+		margin: 0 1vw;
+	}
+	.boxsection {
+		margin-top: 3.4vw;
+    width: 86vw;
+    margin-left: -9vw;
+    display: flex;
 	}
 }
 @media screen and (max-width:767.68px){
@@ -416,7 +463,7 @@
 	.subsection1{
 		margin-left: 6vw;
 		background-color: blue;
-		height: 8.25vh;
+		height: 8.25vw;
 		width: 88.8vw;
 		float: left;
 		margin-top: 3.5vh;

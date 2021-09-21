@@ -15,7 +15,7 @@ import './home.css';
 // import aboutusimg from '../assets/aboutusimage.svg'
 // import david from '../assets/david.webp'
 // import rajendra from '../assets/rajendra.webp'
-// import howmuchimg from '../assets/howmuchimg.svg'
+import MenuIcon from '../../assets/images/menu.svg'
  import cardanoLogo from '../../assets/images/cardanologo.png'
 // import { Helmet } from "react-helmet";
 
@@ -220,6 +220,9 @@ class Home extends React.Component{
       <div className="header">
         <div className="logo"></div>
         <div className="menu"></div>
+        {/* <div className="menuIcon"> */}
+          <img className="menuIcon" src={MenuIcon} />
+          {/* </div> */}
       </div>
       <div className="section1">
         <div className="heading1"></div>
@@ -233,7 +236,7 @@ class Home extends React.Component{
         <div className="gif">
       </div>
       <div className="whatwedo_bg">
-        <div className="whatwedo">
+        {/* <div className="whatwedo">
         
         </div>
         <div className="whatwedo_section">
@@ -246,7 +249,19 @@ class Home extends React.Component{
           <div className="whatwedo_section_data">
           
           </div>
+        </div> */}
+              <div>
+        <div className="whatwedo">
+          <div className="whatwedoHeaderMain">
+          <div className="whatwedoHeader"></div>
+          </div>
+          <div className="boxsection">
+            <div className="box1"></div>
+            <div className="box1"></div>
+            <div className="box1"></div>
+          </div>
         </div>
+      </div>
       </div> 
       
       <div className="eel_section">
