@@ -656,7 +656,7 @@
     margin-top: 11.7vw;
 	}
 	.eel_section{
-		margin-top: 69vw;
+		margin-top: 20vw;
 	}
 	.eel_header{
 		margin-top: 12.26vw;
@@ -712,5 +712,67 @@
     border-radius: 21.3vw;
     margin-left: -37.9vw;
     background-color: gold;
+	}
+	.whatwedo {
+		margin-top: 66.4vw;
+		width: 88.8vw;
+		height: 314vw;
+		background-color: brown;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 21.3vw;
+		/* padding-top: 3.4vw; */
+	}
+	.whatwedoHeaderMain {
+		padding-top: 12vw;
+	}
+	.whatwedoHeader {
+		background-color: burlywood;
+		width: 88.8vw;
+		height: 11.46vw;
+		margin:0 auto ;
+	}
+	.box1 {
+		width: 65vw;
+		height: 78.1vw;
+		border-radius: 21.3vw;
+		background-color: cadetblue;
+		margin: 7.4vw 0;
+		padding: 0 5.5vw;
+		/* text-align: center; */
+	}
+	.boxsection {
+		/* margin-top: 4.55vw; */
+    /* width: 86vw; */
+    /* margin-left: -9vw; */
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* justify-content: center; */
+	}
+	.number {
+		width: 12vw;
+		height: 12vw;
+		background-color: gold;
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 14.6vw;
+	}
+	.boxHeader {
+		/* text-align: center; */
+		width: 59.1vw;
+		height: 14.9vw;
+		/* margin-top: 1.3vw; */
+		background-color: chartreuse;
+		margin: 2.2vw auto 0 auto;
+	}
+	.boxDescription{
+		/* margin-top: 1.3vw; */
+		background-color: coral;
+		height: 24.48vw;
+		width: 58.9vw;
+		/* margin-bottom: 2.7vw; */
+		margin: 2.2vw auto 4.5vw auto;
 	}
 }
