@@ -458,6 +458,90 @@
 		width: 100%;
 		height: 41.25vw
 	}
+	.about_us{
+		padding-top: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 100vw;
+		padding-bottom:6vw;
+	}
+	.aboutusdesc{
+		display:flex;
+	}
+	.aboutusheading{
+		width: 14.21vw;
+    height: 4.7vw;
+    background-color: red;
+    margin-left: 9vw;
+    margin-right: auto;
+	}
+	.aboutusdescription{
+		margin-top: 2vw;
+    width: 62.1vw;
+    background-color: darkgreen;
+    height: 28.3vw;
+    margin-left: 9vw;
+		margin-right:2vw;
+	}
+	.aboutusimg{
+		width: 17.65vw;
+    height: 37vw;
+    background-color: cornflowerblue;
+    margin-top: -4vw;
+	}
+	.subscribebox{
+		margin-top:12.96vw;
+		width: 82vw;
+		height: 22.2vw;
+		background-color: chocolate;
+		border-radius: 4.68vw;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top: 2.42vw;
+		/* display:flex; */
+	}
+	.subscribeheading{
+		width: 45.93vw;
+    height: 5vw;
+    background-color: mediumvioletred;
+    text-align: center;
+    margin: auto;
+	}
+	.subscribe_para{
+		width: 61.7vw;
+    height: 6vw;
+    background-color: bisque;
+    margin: 2vw auto;
+	}
+	.subscribeform{
+		display:flex;
+		margin:auto;
+		width:60vw;
+	}
+	.input1{
+		width: 23.59vw;
+    height: 4.68vw;
+    background-color: green;
+    /* margin: auto; */
+    margin-right: 2vw;
+    border-radius: 1.3vw
+	}
+	.input2{
+		width: 23.59vw;
+    height: 4.68vw;
+    background-color: green;
+    /* margin: auto; */
+    margin-right: 2vw;
+    border-radius: 1.3vw
+	}
+	.subscribeBtn{
+		width: 9.6vw;
+    height: 4.68vw;
+    background-color: gold;
+    /* margin: auto; */
+    border-radius: 4.68vw;
+	}
 }
 
 @media screen and (min-width:768px) and (max-width:1024px){
@@ -714,6 +798,93 @@
 		width: 100%;
 		height: 41.25vw
 	}
+	.about_us{
+		padding-top: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 100vw;
+		padding-bottom:6vw;
+	}
+	.aboutusheading{
+		width: 34.9vw;
+    height: 11.4vw;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.aboutusdesc{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.aboutusdescription{
+		margin-top: 2vw;
+    width: 82vw;
+    background-color: darkgreen;
+    height: 55.85vw;
+    margin-left: auto;
+		margin-right:auto;
+	}
+	.aboutusimg{
+		width: 50vw;
+    height: 37vw;
+    background-color: cornflowerblue;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+	}
+	.subscribebox{
+		margin-top: 12.96vw;
+    width: 88.8vw;
+    height: 110.4vw;
+    background-color: chocolate;
+    border-radius: 4.68vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12.42vw;
+	}
+	.subscribeheading{
+		width: 77.6vw;
+    height: 19vw;
+    background-color: mediumvioletred;
+    text-align: center;
+    margin: auto;
+	}
+	.subscribe_para{
+		width: 77.6vw;
+    height: 23vw;
+    background-color: bisque;
+    margin: 7vw auto;
+	}
+	.subscribeform{
+		display: grid;
+    margin: auto;
+    width: 77vw;
+	}
+	.input1{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.input2{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: 3vw auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.subscribeBtn{
+		width: 23.6vw;
+    height: 8.68vw;
+    background-color: gold;
+    margin: 3vw auto;
+    border-radius: 4.68vw;
+	}
 }
 @media screen and (max-width:767.68px){
 	body{
@@ -901,5 +1072,92 @@
 		width: 58.9vw;
 		/* margin-bottom: 2.7vw; */
 		margin: 2.2vw auto 4.5vw auto;
+	}
+	.about_us{
+		padding-top: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 100vw;
+		padding-bottom:6vw;
+	}
+	.aboutusheading{
+		width: 34.9vw;
+    height: 11.4vw;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.aboutusdesc{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.aboutusdescription{
+		margin-top: 2vw;
+    width: 77.6vw;
+    background-color: darkgreen;
+    height: 116.5vw;
+    margin-left: auto;
+		margin-right:auto;
+	}
+	.aboutusimg{
+		width: 50vw;
+    height: 37vw;
+    background-color: cornflowerblue;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+	}
+	.subscribebox{
+		margin-top: 12.96vw;
+    width: 88.8vw;
+    height: 110.4vw;
+    background-color: chocolate;
+    border-radius: 21.3vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12.42vw;
+	}
+	.subscribeheading{
+		width: 77.6vw;
+    height: 19vw;
+    background-color: mediumvioletred;
+    text-align: center;
+    margin: auto;
+	}
+	.subscribe_para{
+		width: 77.6vw;
+    height: 23vw;
+    background-color: bisque;
+    margin: 7vw auto;
+	}
+	.subscribeform{
+		display: grid;
+    margin: auto;
+    width: 77vw;
+	}
+	.input1{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.input2{
+		width: 77.59vw;
+    height: 12.68vw;
+    background-color: green;
+    margin: 3vw auto;
+    /* margin-right: 2vw; */
+    border-radius: 4.6vw;
+	}
+	.subscribeBtn{
+		width: 23.6vw;
+    height: 8.68vw;
+    background-color: gold;
+    margin: 3vw auto;
+    border-radius: 4.68vw;
 	}
 }

@@ -342,10 +342,31 @@ class Home extends React.Component{
         </div>
       </div>
       <div className="about_us">
+        <div className="aboutusheading"></div>
+        <div className="aboutusdesc">
+          <div className="aboutusdescription">
+
+          </div>
+          <div className="aboutusimg">
+
+          </div>
+        </div>
 
       </div>
       <div className="subscribe">
+        <div className="subscribebox">
+            <div className="subscribeheading">
 
+            </div>
+            <div className="subscribe_para">
+
+            </div>
+            <div className="subscribeform">
+              <div className="input1"></div>
+              <div className="input2"></div>
+              <div className="subscribeBtn"></div>
+            </div>
+        </div>
       </div>
       <div className="join">
 
