@@ -369,7 +369,7 @@ class Home extends React.Component{
         </div>
       </div>
       <div className="join">
-
+        <div className="joinheading"></div>
       </div>
       <div className="footer">
         
