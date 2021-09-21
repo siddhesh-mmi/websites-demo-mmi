@@ -299,8 +299,10 @@ class Home extends React.Component{
             </div>
           </div>
         </div>
+        <div className="btnDiv">
         <div className="earning_calc_btn">
 
+        </div>
         </div>
       </div>
       <div className="blackband">
