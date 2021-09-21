@@ -370,6 +370,10 @@ class Home extends React.Component{
       </div>
       <div className="join">
         <div className="joinheading"></div>
+        <div className="joinimg">
+          <div className="jointwitter"></div>
+          <div className="jointwitter"></div>
+        </div>
       </div>
       <div className="footer">
         

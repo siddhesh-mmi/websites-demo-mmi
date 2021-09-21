@@ -394,70 +394,6 @@
 		width: 23.5vw;
 		margin-bottom: 2.7vw;
 	}
-	.our_team {
-		/* margin-top: 15.7vw; */
-		width: 68.67vw;
-		/* height: 97.1vw; */
-		background-color: darkgoldenrod;
-		border-radius: 4.68vw;
-		margin: 12.26vw auto 0 auto;
-		padding:3.4vw 0;
-	}
-	.ourteamHeader {
-		/* margin-top: 3.4vw; */
-		background-color: darkgray;
-		height: 4.7vw;
-		width: 68.7vw;
-	}
-	.ourbox1 {
-		/* margin-top: 3.4vw; */
-		background-color: darksalmon;
-		width: 34.92vw;
-		/* height: 79.92vw; */
-		border-radius: 4.36vw;
-		margin: 0 3.9vw;
-	}
-	.ourboxsection {
-		margin-top: 3.4vw;
-    width: 86vw;
-    margin-left: -8vw;
-    display: flex;
-	}
-	.ourHeaderDiv {
-		display: flex;
-	}
-	.ourmain {
-		margin: 5.54vw 2.18vw;
-	}
-	.teamImg {
-		width: 12.5vw;
-		height: 12.5vw;
-		background-color: darkviolet;
-		border-radius: 1.5vw;
-	}
-	.ourheaderMain{
-		display: flex;
-		flex-direction: column;
-	}
-	.ourteamheader {
-		margin-left: 2.1vw;
-		width: 18vw;
-		height: 6.25vw;
-		background-color: deeppink;
-	}
-	.ourteamDesc {
-		margin-top: 1.3vw;
-		margin-left: 2.1vw;
-		width: 12.18vw;
-		height: 2.57vw;
-		background-color: deepskyblue;
-	}
-	.teamDescription {
-		margin-top: 2.1vw;
-		background-color: khaki;
-		width: 100%;
-		height: 41.25vw
-	}
 	.about_us{
 		padding-top: 12vw;
     margin-left: auto;
@@ -543,7 +479,29 @@
     border-radius: 4.68vw;
 	}
 	.join{
-		margin-top:6vw;
+		padding-top: 10vw;
+    background-color: #0e0e0e;
+		padding-bottom: 10vw;
+	}
+	.joinheading{
+		width: 75.54vw;
+		height: 4.76vw;
+		margin-left: auto;
+		margin-right:auto;
+		background-color:seagreen;
+	}
+	.joinimg{
+		margin: auto;
+    display: flex;
+    margin-top: 3.4vw;
+		width:22vw;
+	}
+	.jointwitter{
+		width: 7.8vw;
+    height: 7.8vw;
+    background-color: gold;
+    border-radius: 1.68vw;
+    margin: auto;
 	}
 }
 
@@ -559,6 +517,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		/* height: 50px; */
+		/* margin-top: 3.1vw; */
 	}
 
 	.menuIcon{
@@ -568,14 +528,19 @@
 
 	.logo{
 		width: 18.55vw;
+		/* height: 50px; */
 		height:8vw;
 		background-color: red;
+		/* margin-top: 40px; */
+		/* margin-top: 2.2vw; */
 	}
 
 	.section1{
 		margin-left: 9vw;
+    /* height: 279px; */
     height: 21.7vw;
     background-color: grey;
+    /* margin-top: 125px; */
     margin-top: 38.6vw;
     width: 82vw;
     margin-bottom: 16.8vw;
@@ -597,16 +562,27 @@
 	}
 
 	.subsection1{
+		/* margin-left: 9vw;
+		background-color: blue;
+		height: 13vw;
+		width: 82vw;
+		/* float: left; 
+		margin-top: 2.8vw; */
 		margin-left: 9vw;
 		background-color: blue;
 		height: 13vw;
 		width: 82vw;
+		/* float: left; */
+		/* margin-top: 2.8vw; */
 	}
 
 	.gif{
+		/*margin-left: 9vw;*/
 		background-color: purple;
 		height: 17vw;
 		width: 100vw;
+		/* float: left; */
+		/* overflow-x: hidden; */
 		margin-top: 13vw;
 		margin-bottom: 7vw;
 	}
@@ -894,6 +870,31 @@
     margin: 3vw auto;
     border-radius: 4.68vw;
 	}
+	.join{
+		padding-top: 22vw;
+    background-color: #0e0e0e;
+		padding-bottom: 22vw;
+	}
+	.joinheading{
+		width: 75.54vw;
+		height: 4.76vw;
+		margin-left: auto;
+		margin-right:auto;
+		background-color:seagreen;
+	}
+	.joinimg{
+		margin: auto;
+    display: flex;
+    margin-top: 3.4vw;
+		width:22vw;
+	}
+	.jointwitter{
+		width: 7.8vw;
+    height: 7.8vw;
+    background-color: gold;
+    border-radius: 1.68vw;
+    margin: auto;
+	}
 }
 @media screen and (max-width:767.68px){
 	body{
@@ -904,7 +905,7 @@
 	}
 	.header{
 		background-color: black;
-    width: 100vw;
+    width: 99.8vw;
     margin-left: 0vw;
     height: 17.93vw;
     margin-top: 0vw;
@@ -1168,5 +1169,30 @@
     background-color: gold;
     margin: 3vw auto;
     border-radius: 4.68vw;
+	}
+	.join{
+		padding-top: 22vw;
+    background-color: #0e0e0e;
+		padding-bottom: 22vw;
+	}
+	.joinheading{
+		width: 77.6vw;
+    height: 22.6vw;
+		margin-left: auto;
+		margin-right:auto;
+		background-color: violet;
+	}
+	.joinimg{
+		margin: auto;
+    display: flex;
+    margin-top: 12vw;
+		width:54vw;
+	}
+	.jointwitter{
+		width: 14.6vw;
+    height: 14.6vw;
+    background-color: gold;
+    border-radius: 1.68vw;
+    margin: auto;
 	}
 }
