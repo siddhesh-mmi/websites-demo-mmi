@@ -232,8 +232,65 @@ class Home extends React.Component{
       </div>
         <div className="gif">
       </div>
-      <div>
-        <div className="whatwedo"></div>
+      <div className="whatwedo_bg">
+        <div className="whatwedo">
+        
+        </div>
+        <div className="whatwedo_section">
+          <div className="whatwedo_section_data">
+            
+          </div>
+          <div className="whatwedo_section_data">
+          
+          </div>
+          <div className="whatwedo_section_data">
+          
+          </div>
+        </div>
+      </div> 
+      
+      <div className="eel_section">
+        <div className="eel_header">
+
+        </div>
+        <div className="eel_para">
+
+        </div>
+      </div>
+      <div className="earning_calc">
+        <div className="earning_calc_img">
+
+        </div>
+        <div className="earning_calc_section">
+          <div className="earning_calc_header">
+
+          </div>
+
+          <div className="earning_calc_para">
+
+          </div>
+          <div className="earning_calc_btn">
+
+          </div>
+        </div>
+      </div>
+      <div className="blackband">
+
+      </div>
+      <div className="our_team">
+
+      </div>
+      <div className="about_us">
+
+      </div>
+      <div className="subscribe">
+
+      </div>
+      <div className="join">
+
+      </div>
+      <div className="footer">
+        
       </div>
       {/*<Footer />*/}
       </>

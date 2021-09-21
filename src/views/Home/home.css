@@ -1,21 +1,217 @@
 @media screen and (min-width:1367px){
 	.header{
 		background-color: black;
-		width: 82vw;
-		margin-left: 9vw;
-		height: 75px;
-		margin-top: 60px;
+		width: 85vw;
+		margin-left: 7.5vw;
+		height: 3.9vw;
+		margin-top: 3.177vw;
+	}
+
+	body{
+		overflow-x: hidden;
+	}
+
+	.logo{
+		width: 9vw;
+		/* height: 50px; */
+		height:3.9vw;
+		background-color: red;
+		/* margin-top: 40px; */
+		margin-top: 3.177vw;
+	}
+
+	.section1{
+		margin-left: 7.5vw;
+		/*height: 279px;*/
+		height: 17.89vw;
+		background-color: grey;
+		/*margin-top: 125px;*/
+		margin-top: 9.84vw;
+		width: 85vw;
+	}
+
+	.heading1{
+		background-color: green;
+		margin-top: 3.64vw;
+		height: 14.27vw;
+		float: left;
+		width: 55.416vw;
+	}
+
+	.image1{
+		margin-left: 9.7vw;
+		/* background-color: red; */
+		height: 17.89vw;
+		width: 19.375vw;
+		float: left;
+	}
+
+	.image_1{
+		/* background-color: red; */
+		height: 17.89vw;
+		width: 19.375vw;
+		float: left;
+	}
+
+	.subsection1{
+		margin-left: 7.5vw;
+		background-color: blue;
+		height: 4.166vw;
+		width: 61.82vw;
+		/* float: left; */
+		margin-top: 1.92vw;
+	}
+
+	.gif{
+		/*margin-left: 9vw;*/
+		background-color: purple;
+		height: 8.59vw;
+		width: 100vw;
+		/* float: left; */
+		/* overflow-x: hidden; */
+		margin-top: 5.72vw;
+		border-bottom: 8.133vw solid #181818;
+	}
+
+	.whatwedo {
+		/* margin-top: 3.489vw; */
+		width: 33vw;
+		height: 3.75vw;
+		background-color: brown;
+		margin-left: 15.5vw;
+		/* margin-right: 33vw; */
+		/* border-radius: 4.68vw; */
+		/* padding-top: 3.4vw; */
+	}
+
+	.whatwedo_section{
+		margin-top: 4.06vw;
+		/* background-color: orange; */
+		margin-left: 6.09vw;
+		/* margin-right: 6.09vw; */
+		height: 23.90vw;
+		width: 100vw;
+		position: relative;
+		margin-bottom: 3.75vw;
+		left: calc(-50vw + 50%);
+	}
+
+	.whatwedo_bg{
+		background-color: darkcyan;
+		width: 63.95vw;
+		height: 40.729vw;
+		padding-top: 3.489vw;
+		margin-left: 17.96875vw;
+		border-radius: 3.125vw;
+	}
+
+	.whatwedo_section_data{
+		width: 23.59vw;
+		height: 23.90vw;
+		float: left;
+		overflow-x: hidden;
+		background-color: orange;
+		margin-left: 2.812vw;
+		margin-right:2.812vw;
+		border-radius: 3.125vw;
+		
+	}
+
+	.eel_section{
+		padding-top: 15.52vw;
+		height: 26.3vw;
+		width: 100vw;
+		background-color: grey;
+	}
+
+	.eel_header{
+		/* margin-top: 15.52vw; */
+		height: 3.75vw;
+		margin-left: 18.07vw;
+		margin-right: 18.07vw;
+		width: 63.90vw;
+		background-color: violet;
+	}
+
+	.eel_para{
+		margin-top: 4.06vw;
+		height: 12.5vw;
+		margin-left: 11.485vw;
+		margin-right: 11.485vw;
+		width: 77.03vw;
+		background-color: yellow;
+	}
+
+	.earning_calc{
+		height: 22.91vw;
+		background-color: aquamarine;
+		width: 81.97vw;
+		border-radius: 3.125vw;
+		margin: auto;
+		display: flex;
+		
+	}
+
+	.earning_calc_img{
+		background-color:rebeccapurple;
+		margin-top: 4.06vw;
+		margin-left: 5.02vw;
+		height: 14.55vw;
+		width: 14.977vw;
+	}
+
+	.earning_calc_header{
+		background-color: royalblue;
+		margin-top: 2.8125vw;
+		margin-left: 2.30vw;
+		height: 3.177vw;
+		width: 32.44vw;
+	}
+
+	.earning_calc_para{
+		margin-top: 1.66vw;
+		margin-left: 2.30vw;
+		height: 5.625vw;
+		width: 46.5625vw;
+		background-color: royalblue;
+	}
+
+	.earning_calc_btn{
+		margin-top: 0.989vw;
+		margin-left: 24.899vw;
+		height: 4.01vw;
+		width: 27.291vw;
+		background-color: #FCCD2F;
+		border-radius: 3.125vw;
+	}
+
+	.blackband{
+		border-bottom: 14.06vw solid #0E0E0E;
+	}
+
+	.our_team{
+		height: 69.58vw;
+		width: 100vw;
+		background-color: burlywood;
+	}
+
+	.footer{
+		height: 36.45833vw;
+		width: 100vw;
+		background-color: #181818;
 	}
 }
 
 @media screen and (min-width:1025px) and (max-width:1366px){
+	body{
+		overflow-x: hidden;
+	}
 	.header{
 		background-color: black;
 		width: 82vw;
 		margin-left: 9vw;
 		height:3.9vw;
 		/* height: 50px; */
-		/* margin-top: 40px; 6.7vh; */
 		margin-top: 3.1vw;
 	}
 
@@ -30,12 +226,9 @@
 
 	.section1{
 		margin-left: 9vw;
-		/*height: 279px;*/
-		/* height: 34.8vh; */
 		height: 21.7vw;
 		background-color: grey;
 		/*margin-top: 125px;*/
-		/* margin-top: 15.6vh; */
 		margin-top: 9.7vw;
 		width: 82vw;
 	}
@@ -51,7 +244,6 @@
 	.image1{
 		margin-left: 2.7vw;
 		/* background-color: red; */
-		/* height: 34.8vh; */
 		height: 21.79vw;
 		width: 23.5vw;
 		float: left;
@@ -59,7 +251,6 @@
 
 	.image_1{
 		/* background-color: red; */
-		/* height: 34.8vh; */
 		height: 21.79vw;
 		width: 23.5vw;
 		float: left;
@@ -68,40 +259,62 @@
 	.subsection1{
 		margin-left: 9vw;
 		background-color: blue;
-		height: 8.25vh;
+		height: 5.15vw;
 		width: 55.8vw;
-		margin-top: 3.5vh;
+		/* float: left; */
+		margin-top: 2.18vw;
 	}
 
 	.gif{
 		/*margin-left: 9vw;*/
 		background-color: purple;
-		height: 10.4vw;
+		height: 10.46vw;
 		width: 100vw;
-		overflow-x: hidden;
-		margin-top: 4.7vw;
+		/* float: left; */
+		/* overflow-x: hidden; */
+		margin-top: 4.76vw;
 	}
 	.whatwedo {
-		width: 68.67vw;
+		margin-top: 10.4vw;
+		width: 68vw;
 		height: 47vw;
 		background-color: brown;
-		margin: 10.4vw auto;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 4.68vw;
+		padding-top: 3.4vw;
+	}
+	.whatwedoHeader {
+		/* margin-top: 3.4vw; */
+		background-color: burlywood;
+		width: 26.2vw;
+		height: 4.76vw;
+		margin:0 auto ;
+	}
+	.box1 {
+		margin-top: 3.4vw;
+		width: 26.25vw;
+		height: 31.7vw;
+		border-radius: 4.68vw;
+		background-color: cadetblue;
 	}
 }
 
 @media screen and (min-width:768px) and (max-width:1024px){
+	body{
+		overflow-x: hidden;
+	}
 	.header{
 		background-color: black;
 		width: 82vw;
 		margin-left: 9vw;
 		height:12.33vw;
 		/* height: 50px; */
-		/* margin-top: 40px; 6.7vh; */
 		margin-top: 3.1vw;
 	}
 
 	.logo{
-		width: 9vw;
+		width: 13.93vw;
 		/* height: 50px; */
 		height:12.33vw;
 		background-color: red;
@@ -112,11 +325,9 @@
 	.section1{
 		margin-left: 9vw;
 		/*height: 279px;*/
-		/* height: 34.8vh; */
 		height: 21.7vw;
 		background-color: grey;
 		/*margin-top: 125px;*/
-		/* margin-top: 15.6vh; */
 		margin-top: 41.6vw;
 		width: 82vw;
 	}
@@ -131,7 +342,6 @@
 	.image1{
 		margin-left: 2.7vw;
 		/* background-color: red; */
-		/* height: 34.8vh; */
 		height: 21.79vw;
 		width: 23.5vw;
 		float: left;
@@ -140,7 +350,6 @@
 
 	.image_1{
 		/* background-color: red; */
-		/* height: 34.8vh; */
 		height: 21.79vw;
 		width: 23.5vw;
 		float: left;
@@ -166,6 +375,9 @@
 	}
 }
 @media screen and (max-width:767.68px){
+	body{
+		overflow-x: hidden;
+	}
 	.image1{
 		display:none;
 	}
@@ -186,11 +398,9 @@
 	.section1{
 		margin-left: 6vw;
 		/*height: 279px;*/
-		/* height: 34.8vh; */
 		height: 30.7vw;
 		background-color: grey;
 		/*margin-top: 125px;*/
-		/* margin-top: 15.6vh; */
 		margin-top: 58.54vw;
 		width: 88.5vw;
 	}
