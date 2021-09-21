@@ -394,6 +394,35 @@
 		width: 23.5vw;
 		margin-bottom: 2.7vw;
 	}
+	.about_us{
+		padding-top: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 100vw;
+		padding-bottom:6vw;
+	}
+	.aboutusheading{
+		width: 14.21vw;
+    height: 4.7vw;
+    background-color: red;
+    margin-left: 9vw;
+    margin-right: auto;
+	}
+	.aboutusdescription{
+		margin-top: 2vw;
+    width: 62.1vw;
+    background-color: darkgreen;
+    height: 28.3vw;
+    margin-left: 9vw;
+		margin-right:2vw;
+	}
+	.aboutusimg{
+		width: 17.65vw;
+    height: 37vw;
+    background-color: cornflowerblue;
+    margin-top: -4vw;
+	}
 }
 
 @media screen and (min-width:768px) and (max-width:1024px){
@@ -602,6 +631,42 @@
 		/* margin-bottom: 2.7vw; */
 		margin: 2.2vw auto 4.5vw auto;
 	}
+	.about_us{
+		padding-top: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 100vw;
+		padding-bottom:6vw;
+	}
+	.aboutusheading{
+		width: 34.9vw;
+    height: 11.4vw;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.aboutusdesc{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.aboutusdescription{
+		margin-top: 2vw;
+    width: 82vw;
+    background-color: darkgreen;
+    height: 55.85vw;
+    margin-left: auto;
+		margin-right:auto;
+	}
+	.aboutusimg{
+		width: 50vw;
+    height: 37vw;
+    background-color: cornflowerblue;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+	}
 }
 @media screen and (max-width:767.68px){
 	body{
@@ -789,5 +854,41 @@
 		width: 58.9vw;
 		/* margin-bottom: 2.7vw; */
 		margin: 2.2vw auto 4.5vw auto;
+	}
+	.about_us{
+		padding-top: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    width: 100vw;
+		padding-bottom:6vw;
+	}
+	.aboutusheading{
+		width: 34.9vw;
+    height: 11.4vw;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.aboutusdesc{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.aboutusdescription{
+		margin-top: 2vw;
+    width: 77.6vw;
+    background-color: darkgreen;
+    height: 116.5vw;
+    margin-left: auto;
+		margin-right:auto;
+	}
+	.aboutusimg{
+		width: 50vw;
+    height: 37vw;
+    background-color: cornflowerblue;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
 	}
 }
