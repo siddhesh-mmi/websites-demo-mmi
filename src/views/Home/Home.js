@@ -236,7 +236,8 @@ class Home extends React.Component{
         <div className="gif">
       </div>
       <div className="whatwedo_bg">
-        {/* <div className="whatwedo">
+      {/* <div className="whatwedo_bg">
+        <div className="whatwedo">
         
         </div>
         <div className="whatwedo_section">
@@ -249,8 +250,9 @@ class Home extends React.Component{
           <div className="whatwedo_section_data">
           
           </div>
-        </div> */}
-              <div>
+        </div>
+      </div> */}
+      <div>
         <div className="whatwedo">
           <div className="whatwedoHeaderMain">
           <div className="whatwedoHeader"></div>
